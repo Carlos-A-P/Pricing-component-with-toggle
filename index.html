@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/script.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <title>CPWD | Pricing Component</title>
+</head>
+<body>
+
+  <main>
+    <div class="pricing-header">
+      <h1>Our Pricing</h1>
+      <div class="choice">
+        <p>Annually</p>
+        <div class="switch">
+          <label class="switch" data-switch-label>
+            <input type="checkbox" name="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <p>Monthly</p>
+      </div>
+    </div>
+    <!-- monthly-switch -->
+    <div class="option-cards" id="cards">
+      <div class="basic card ">
+        <h2>Basic</h2>
+        <p class="price annually">&dollar;199.99</p>
+        <p class="price monthly">&dollar;19.99</p>
+        <p class="storage component">500 GB Storage</p>
+        <p class="users component">2 Users Allowed</p>
+        <p class="limit component">Send up to 3 GB</p>
+        <p class="learn-more"><a href="#">Learn More</a></p>
+      </div>
+      <div class="professional card">
+        <h2>Professional</h2>
+        <p class="price annually">&dollar;249.99</p>
+        <p class="price monthly">&dollar;24.99</p>
+        <p class="storage component">1 TB Storage</p>
+        <p class="users component">5 Users Allowed</p>
+        <p class="limit component">Send up to 10 GB</p>
+        <p class="learn-more"><a href="#">Learn More</a></p>
+      </div>
+      <div class="master card">
+        <h2>Master</h2>
+        <p class="price annually">&dollar;399.99</p>
+        <p class="price monthly">&dollar;39.99</p>
+        <p class="storage component">2 TB Storage</p>
+        <p class="users component">10 Users Allowed</p>
+        <p class="limit component">Send up to 20 GB</p>
+        <p class="learn-more"><a href="#">Learn More</a></p>
+      </div>      
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#" target="_blank">Carlos Perez</a>.
+    </div>    
+  </footer>
+</body>
+</html>
