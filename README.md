@@ -40,7 +40,7 @@ Users should be able to:
 
 This challenged helped me get familiar with event listeners and it helped test my css skills to make a slider.
 
-Here is some code that I wrote in order to complete this project
+- the following html syntax was used to insert a checkbox, when it's checked, the slider would move to the right "monthly" setting when checked
 
 ```HTML
 <div class="switch">
@@ -51,29 +51,15 @@ Here is some code that I wrote in order to complete this project
 </div>
 ```
 
+- event handler is used when the checkbox is checked
+
 ```Javascript
 const toggleSwitch = document.querySelector("input[name=checkbox]");
 const cards = document.getElementById('cards')
 
-
 toggleSwitch.addEventListener('change', ()=>{
-    console.log('switch')
     cards.classList.toggle("monthly-switch")
 })
-```
-
-```CSS
-.slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-	-webkit-transition: 0.4s;
-	transition: 0.4s;
-}
 ```
 
 ### Questions
